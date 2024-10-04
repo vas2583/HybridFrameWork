@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Grid]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="os" value="linux"/>
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.test.hrms.MyListener"/>
+  </listeners>
+  <test name="GroupTest(failed)">
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.hrms.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="navgateToURl"/>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.test.hrms.LoginTest -->
+      <class name="com.test.hrms.AddEmployee">
+        <methods>
+          <include name="addEmp"/>
+        </methods>
+      </class> <!-- com.test.hrms.AddEmployee -->
+    </classes>
+  </test> <!-- GroupTest(failed) -->
+</suite> <!-- Failed suite [Grid] -->

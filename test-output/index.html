@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Grid" class="navigator-link">
+              <span class="suite-name border-skipped">Grid</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Grid" class="navigator-link ">
+                    <span>G:\WorkSpeace\seleniunm\suresh715\pratice\HybridFrameWork\dockergrid.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Grid" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Grid" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Grid" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Grid" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Grid" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Grid" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Grid" class="hide-methods skipped suite-Grid"> (hide)</a> <!-- hide-methods skipped suite-Grid -->
+                      <a href="#" panel-name="suite-Grid" class="show-methods skipped suite-Grid"> (show)</a> <!-- show-methods skipped suite-Grid -->
+                    </span>
+                    <div class="method-list-content skipped suite-Grid">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Grid" title="com.test.hrms.AddEmployee" class="method navigator-link" hash-for-method="addEmp">addEmp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Grid -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Grid" class="hide-methods passed suite-Grid"> (hide)</a> <!-- hide-methods passed suite-Grid -->
+                      <a href="#" panel-name="suite-Grid" class="show-methods passed suite-Grid"> (show)</a> <!-- show-methods passed suite-Grid -->
+                    </span>
+                    <div class="method-list-content passed suite-Grid">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Grid" title="com.test.hrms.LoginTest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Grid -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Grid" class="panel Grid">
+          <div class="suite-Grid-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.test.hrms.AddEmployee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmp">
+                  </a> <!-- addEmp -->
+                  <span class="method-name">addEmp</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. New session request timed out 
+Host info: host: &apos;0bc864f0c26a&apos;, ip: &apos;172.18.0.2&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.153.1-microsoft-standard-WSL2&apos;, java.version: &apos;17.0.12&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;LAPTOP-5COFNKBT&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: driver.version: RemoteWebDriver
+remote stacktrace: [{fileName=LocalNewSessionQueue.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=addToQueue, className=org.openqa.selenium.grid.sessionqueue.local.LocalNewSessionQueue, lineNumber=221, classLoaderName=null}, {fileName=NewSessionQueue.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$new$0, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=68, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=360, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=null}, {fileName=NewSessionQueue.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=128, classLoaderName=null}, {fileName=SpanWrappedHttpHandler.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.tracing.SpanWrappedHttpHandler, lineNumber=87, classLoaderName=null}, {fileName=Filter.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=63, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=360, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=null}, {fileName=Router.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.grid.router.Router, lineNumber=87, classLoaderName=null}, {fileName=EnsureSpecCompliantResponseHeaders.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$apply$0, className=org.openqa.selenium.grid.web.EnsureSpecCompliantResponseHeaders, lineNumber=34, classLoaderName=null}, {fileName=Filter.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=63, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=360, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handle, className=org.openqa.selenium.remote.http.Route$NestedRoute, lineNumber=270, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=360, classLoaderName=null}, {fileName=Route.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=null}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=null}, {fileName=ErrorFilter.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=null}, {fileName=Filter.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=63, classLoaderName=null}, {fileName=ErrorFilter.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=null}, {fileName=Filter.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=63, classLoaderName=null}, {fileName=SeleniumHandler.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=null}, {fileName=Executors.java, moduleVersion=17.0.12, nativeMethod=false, moduleName=java.base, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=539, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=17.0.12, nativeMethod=false, moduleName=java.base, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=17.0.12, nativeMethod=false, moduleName=java.base, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1136, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=17.0.12, nativeMethod=false, moduleName=java.base, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=635, classLoaderName=null}, {fileName=Thread.java, moduleVersion=17.0.12, nativeMethod=false, moduleName=java.base, methodName=run, className=java.lang.Thread, lineNumber=840, classLoaderName=null}]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
+	at com.nit.utils.BaseClass.openBrowser(BaseClass.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Grid-class-skipped -->
+          <div class="suite-Grid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.hrms.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Grid-class-passed -->
+        </div> <!-- panel Grid -->
+        <div panel-name="test-xml-Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\WorkSpeace\seleniunm\suresh715\pratice\HybridFrameWork\dockergrid.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;Grid&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.test.hrms.MyListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;GroupTest&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;linux&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.hrms.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.test.hrms.AddEmployee&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GroupTest --&gt;
+&lt;/suite&gt; &lt;!-- Grid --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GroupTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regeression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addEmp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">master</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addEmp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Grid');
+function tableData_Grid() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'com.test.hrms.LoginTest')
+data.setCell(0, 3, 9024);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addEmp')
+data.setCell(1, 2, 'com.test.hrms.AddEmployee')
+data.setCell(1, 3, 0);
+window.suiteTableData['Grid']= { tableData: data, tableDiv: 'times-div-Grid'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-Grid">
+              </div> <!-- times-div-Grid -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.hrms.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser(chrome, linux)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">navgateToURl</span>
+                <span class="method-start">81088 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">386116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">395321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeCurrentBrowser</span>
+                <span class="method-start">397653 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.hrms.AddEmployee</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openBrowser(chrome, linux)</span>
+                <span class="method-start">398537 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">navgateToURl</span>
+                <span class="method-start">699414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addEmp</span>
+                <span class="method-start">699427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">699451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeCurrentBrowser</span>
+                <span class="method-start">699462 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-04T07:12:40Z" name="Grid" finished-at="2024-10-04T07:15:36Z" duration-ms="176033">
+    <groups>
+      <group name="Regeression">
+        <method signature="AddEmployee.addEmp()[pri:0, instance:com.test.hrms.AddEmployee@4e0ae11f]" name="addEmp" class="com.test.hrms.AddEmployee"/>
+      </group> <!-- Regeression -->
+      <group name="sanity">
+        <method signature="LoginTest.login()[pri:0, instance:com.test.hrms.LoginTest@18317edc]" name="login" class="com.test.hrms.LoginTest"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="AddEmployee.addEmp()[pri:0, instance:com.test.hrms.AddEmployee@4e0ae11f]" name="addEmp" class="com.test.hrms.AddEmployee"/>
+        <method signature="LoginTest.login()[pri:0, instance:com.test.hrms.LoginTest@18317edc]" name="login" class="com.test.hrms.LoginTest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-10-04T07:12:40Z" name="GroupTest" finished-at="2024-10-04T07:15:36Z" duration-ms="176033">
+      <class name="com.test.hrms.AddEmployee">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.test.hrms.AddEmployee@4e0ae11f]" started-at="2024-10-04T12:43:00Z" name="openBrowser" finished-at="2024-10-04T12:43:05Z" duration-ms="4413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="navgateToURl()[pri:0, instance:com.test.hrms.AddEmployee@4e0ae11f]" started-at="2024-10-04T12:43:05Z" name="navgateToURl" finished-at="2024-10-04T12:43:16Z" duration-ms="10883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navgateToURl -->
+        <test-method signature="addEmp()[pri:0, instance:com.test.hrms.AddEmployee@4e0ae11f]" started-at="2024-10-04T12:43:16Z" name="addEmp" finished-at="2024-10-04T12:45:34Z" duration-ms="138140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmp -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.test.hrms.AddEmployee@4e0ae11f]" started-at="2024-10-04T12:45:34Z" name="logout" finished-at="2024-10-04T12:45:35Z" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeCurrentBrowser()[pri:0, instance:com.test.hrms.AddEmployee@4e0ae11f]" started-at="2024-10-04T12:45:35Z" name="closeCurrentBrowser" finished-at="2024-10-04T12:45:36Z" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentBrowser -->
+      </class> <!-- com.test.hrms.AddEmployee -->
+      <class name="com.test.hrms.LoginTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.test.hrms.LoginTest@18317edc]" started-at="2024-10-04T12:42:40Z" name="openBrowser" finished-at="2024-10-04T12:42:45Z" duration-ms="4901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="navgateToURl()[pri:0, instance:com.test.hrms.LoginTest@18317edc]" started-at="2024-10-04T12:42:45Z" name="navgateToURl" finished-at="2024-10-04T12:42:50Z" duration-ms="4716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navgateToURl -->
+        <test-method signature="login()[pri:0, instance:com.test.hrms.LoginTest@18317edc]" started-at="2024-10-04T12:42:50Z" name="login" finished-at="2024-10-04T12:42:55Z" duration-ms="5451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.test.hrms.LoginTest@18317edc]" started-at="2024-10-04T12:42:55Z" name="logout" finished-at="2024-10-04T12:42:59Z" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeCurrentBrowser()[pri:0, instance:com.test.hrms.LoginTest@18317edc]" started-at="2024-10-04T12:42:59Z" name="closeCurrentBrowser" finished-at="2024-10-04T12:43:00Z" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentBrowser -->
+      </class> <!-- com.test.hrms.LoginTest -->
+    </test> <!-- GroupTest -->
+  </suite> <!-- Grid -->
+</testng-results>

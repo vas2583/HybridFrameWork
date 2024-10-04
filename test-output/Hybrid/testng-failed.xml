@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Hybrid]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test name="HRMS(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.hrms.AddEmployee">
+        <methods>
+          <include name="seatup"/>
+          <include name="addEmp"/>
+          <include name="probs"/>
+        </methods>
+      </class> <!-- com.test.hrms.AddEmployee -->
+    </classes>
+  </test> <!-- HRMS(failed) -->
+</suite> <!-- Failed suite [Hybrid] -->

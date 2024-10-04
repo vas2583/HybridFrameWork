@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Groups" thread-count="2" parallel="false">
+  <groups>
+    <run>
+      <include name="master"/>
+    </run>
+  </groups>
+  
+  <listeners>
+    <listener class-name="com.test.hrms.MyListener"/>
+  </listeners>
+  
+  <test name="GroupTest">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="os" value="windows"/>
+    <classes>
+      <class name="com.test.hrms.LoginTest"/>
+      <class name="com.test.hrms.AddEmployee"/>
+    </classes>
+  </test>
+</suite>
